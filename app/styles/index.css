@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.appointment {
+  background-color: #34495e;
+  padding: 16px;
+  margin: 16px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  color: #ecf0f1;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.appointment__title {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.appointment__description {
+  font-size: 18px;
+}
+
+.title-appointment {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.error-msg {
+  color: #e74c3c;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.navigation {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #3498db;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 300px;
+}
+
+.form {
+  background-color: #3498db;
+  padding: 16px;
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 8px;
+}
+
+.form__input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input-control__label {
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.form__create-btn {
+  margin-top: 20px;
+}
+
+.content-loading {
+  display: flex;
+  justify-content: center;
+}
+
+.content-loading__loading {
+  width: 50px;
+  height: 50px;
+}
+
+.filter-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.filter-list li{
+  margin-left: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-items: center;
+}
+.filter-list li:hover{
+  cursor: pointer;
+}
+.filter-list li span{
+  font-size: 20px;
+}
+
+.navigation__search{
+  margin-top: 20px;
+  padding: 5px;
+  width: 300px;
+}
+
+.delete{
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.no-appointments{
+  font-size: 40px;
+  margin-top: 50px;
+}

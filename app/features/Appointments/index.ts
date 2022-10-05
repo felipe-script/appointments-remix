@@ -1,0 +1,1 @@
+export * as AppointmentsSupaBase from './Appointments.supabase';
